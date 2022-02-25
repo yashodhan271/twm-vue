@@ -24,7 +24,7 @@
         <input
           v-model="form.date"
           class="form-control"
-          type="text"
+          type="date"
           required
         />
       </div>
@@ -33,7 +33,7 @@
         <input
           v-model="form.contact"
           class="form-control"
-          type="text"
+          type="tel"
           required
         />
       </div>
